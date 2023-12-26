@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background: #e5e5e5;    
+}
+
+.wrapper {
+    width: 1440px;
+    margin: auto;
+    height: auto;
+    background: #FFF;
+}
+
+/* header css start */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 73px;
+}
+
+ nav  ul {
+    display: flex;
+    gap: 33px;
+    
+}
+
+nav ul li a {
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+   color:dodgerblue;
+}
+
+.nav-i {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.nav-i i {
+    transition: all 0.3s;
+}
+
+.nav-i i:hover {
+    color: aqua;
+}
+
+/* header css  end */
+
+/* home css section  start */
+
+.home {
+    background: #dce5e2;
+    margin-left: 73px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    width: 1300px;
+    height: 550px;
+}
+
+.home-icon {
+    align-self: center;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-icon:hover {
+    color: rgb(137, 135, 135);
+}
+
+.home-title {
+    padding: 145px 56px;
+}
+
+.home-title h1 {
+    color: #000;    
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 69.6px;
+}
+
+.home-title p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px; 
+    margin-top: 20px;
+}
+
+.home-title button {
+    padding: 15px 70px;
+    margin-top: 30px;
+    border:  1px solid #000;
+    border-radius: 25px;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    outline: none;
+    cursor: pointer;
+}
+
+.home-title button:hover {
+    background: green;
+    color: white;
+    border: 2px solid white;
+}
+
+.home-title button:active {
+    border:  1px solid #000;
+    background: none;
+    color: #000;
+}
+
+.home-end-icon {
+    align-self: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.home-end-icon i {
+    margin-left: -50px;
+}
+
+.home-end-icon:hover {
+    color: rgb(137, 135, 135);
+}
+
+/* home css section  end */
+
+/* about css section start */
+
+.about {
+    padding: 56px 73px;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title h1 {
+    color: #000;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+.about-title p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px; 
+    padding: 10px 330px;
+}
+
+.about-imgs {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 32px;  
+}
+
+.solition {
+    width: 639px;
+    background: #fff;
+    margin-top: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.solition-img {
+    margin-left: 42px;
+}
+
+.solition-title {
+    text-align: right;
+    padding: 15px 42px;
+}
+.solition-title p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+.solition-title h3 {
+    margin-left: 350px;
+    width: 192px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px; 
+}
+
+.watch {
+    display: flex;
+    width: 639px;
+    background: #fff;
+    margin-top: 56px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.watch-img {
+    margin-left: 42px;
+}
+.watch-title {
+    align-self: center;
+    padding: 18px 46px;
+}
+
+.watch-title p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-left: 70px;
+}
+
+.watch-title h3 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+
+.iphone {
+    width: 310px;
+    height: 820px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+.iphone-img  {
+    padding: 100px 16px;
+}
+
+.iphone-title {
+    padding: 0 31px;
+}
+
+.iphone-title p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.iphone-title h3 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+
+}
+
+.iphone-1 {
+    width: 310px;
+    height: 820px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+.iphone-img-1  {
+    padding: px0 16px;
+}
+
+.iphone-title-1 {
+    padding: 133px 31px;
+}
+
+.iphone-title-1 p {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.iphone-title-1 h3 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+
+}
+/* about css section end */
+
+
+/* items section start */
+
+.items {
+    padding: 50px 73px;
+}
+.items-title {
+    text-align: center;
+}
+
+.items-title h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.items-title p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-top: 20px;
+}
+
+.nootbook {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 70px;
+}
+.macbook-img {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.macbook-title {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.macbook-title h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.macbook-title p {
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    
+}
+
+.macbook-title h4 {
+color: #000;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+}
+/* items section end */
+
+
+/* card css section start */
+
+.card {
+    padding: 28px 73px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-title h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.card-title p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.8px; 
+    margin-top: 10px;
+}
+
+.card-start {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 56px;
+    gap: 28px;
+}
+
+.card-start-title { 
+    background: #F8F9FA;
+    padding: 30px 60px;
+    border-radius: 16px;
+}
+
+.card-start-title p {
+    margin-top: 43px;
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.card-start-title h4 {
+
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.card-start-title button {
+    padding: 14px 70px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 30px;
+    transition: all0.3s ease;
+}
+
+.card-start-title button:hover {
+    background: dodgerblue;
+    color: white;
+    border: 1px solid  red;
+}
+
+.card-start-title button:active {
+    background: none;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.card-start-img img {
+    width: 250px;
+    margin-top: 30px;
+}
+
+/* csrd css section end */
+
+/* idea css section start */
+
+
+.idea {
+    padding: 75px 73px;
+}
+
+.idea-title {
+    text-align: center;
+}
+
+.idea-title h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.idea-title p {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-top: 10px;
+}
+
+.idea-start {
+    display: flex;
+    margin-top: 50px;
+    gap: 35px;
+}
+
+.idea-start-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+}
+/* idea css section end */
+
+/* input css section start */
+
+.input-search-section {
+    text-align: center;
+}
+
+.input-search-section h1 {
+    color: #000;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.search {
+    position: relative;
+
+}
+
+.search i {
+    position: absolute;
+    top: 52%;
+    left: 29%;
+    font-size: 25px;
+
+}
+
+.search input  {
+    width: 650px;
+    height: 60px;
+    text-indent: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 14px;
+    background: #F8F9FA;
+}
+
+
+.input-btns {   
+    padding: 18px;
+}
+
+.btns-1 {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+}
+
+.btns-1:hover{
+    background: orange;
+    color: white;
+}
+
+.btns-1:active{
+    background: none;
+    color: #000;
+}
+
+
+.btns-3 {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+}
+
+.btns-3:hover{
+    background: orangered;
+    color: white;
+}
+
+.btns-3:active{
+    background: none;
+    color: #000;
+} 
+
+.btns-4 {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+}
+
+.btns-4:hover{
+    background: black ;
+    color: white;
+}
+
+.btns-4:active{
+    background: none;
+    color: #000;
+} 
+
+.btns-5 {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+}
+
+.btns-5:hover{
+    background: aqua ;
+    color: black;
+}
+
+.btns-5:active{
+    background: none;
+    color: #000;
+} 
+
+
+.input-btn button {
+    padding: 12px 22px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background: none;
+    cursor: pointer;
+}
+
+.input-btn button:hover {
+    background: brown;
+    color: white;
+}
+
+.input-btn button:active {
+    background: green;
+    color: white;
+}
+
+
+/* input css section end */
+
+
+
+/* never css section start */
+
+.never {
+    text-align: center;
+    background: #DCE5E2;
+    width: 935px;
+    /* height: 450px; */
+    padding: 60px;
+    margin: 30px 200px;
+    border-radius: 16px;
+}
+
+.never h1 {
+    color: #000;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.never p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.never-img {
+    margin-top: 40px;
+}
+
+.never-input {
+    margin-top: 15px;
+    position: relative;
+}
+
+.never-input input {
+    padding: 16px 60px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.never-input button {
+    padding: 17px 40px;
+    margin-left: -55px;
+    border-radius: 25px;
+    border-radius: 0px 200px 200px 0px;
+    background: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* never css section end */
+
+/* footer css section start */
+
+.footer {
+    padding: 55px 73px;
+    background: #F8F9FA;
+    display: flex;
+    gap: 118px;
+}
+
+.footer-start {
+    width: 300px;
+}
+
+.footer-start p {
+    margin-top: 20px;
+    color: #000;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.footer-title {
+    display: flex;
+    gap: 120px;
+}
+
+.praducts {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.praducts a  {
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.6px;
+    transition: all 0.2s ease;
+}
+
+
+.praducts a:hover {
+    color: rgb(255, 124, 30);
+}
+
+
+/* footer css section end */
